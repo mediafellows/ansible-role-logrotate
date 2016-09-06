@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mediapeers/ansible-role-logrotate.svg?branch=master)](https://travis-ci.org/mediapeers/ansible-role-logrotate)
+
 # Ansible Logrotate role
 
 Installs and configures logrotate (adds files to /etc/logrotate.d).
