@@ -1,0 +1,4 @@
+---
+# vars file for mediapeers.logrotate
+
+logrotate_conf_d: /etc/logrotate.d

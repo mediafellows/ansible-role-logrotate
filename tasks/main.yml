@@ -1,0 +1,13 @@
+---
+# tasks file for mediapeers.logrotate
+
+- name: Make sure logrotate is installed
+  apt:
+    name: logrotate
+    state: present
+
+- name: Add config files for logfiles to watch
+  template:
+    src: logrotate_conf.j2
+    dest: "{{ logrotate_conf_d}}/{{ item.name }}"
+  with_items: "{{ logroate_file_list }}"

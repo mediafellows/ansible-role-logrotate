@@ -1,0 +1,10 @@
+---
+# defaults file for mediapeers.logrotate
+
+# override this with a list of dicts:
+logrotate_file_list: []
+
+# fallback settings (if not file specific):
+logrotate_interval: weekly
+logrotate_max_size: 100M
+logrotate_max_files: 8

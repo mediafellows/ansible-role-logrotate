@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Stefan Horning
+  description: Installs and configures logrotate
+  company: Mediapeers GmbH
+  license: BSD
+  min_ansible_version: 1.8
+  github_branch: master
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  galaxy_tags:
+    - logrotate
+    - logging
+    - system
+
+dependencies: []
