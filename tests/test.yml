@@ -3,6 +3,7 @@
   vars:
     logrotate_file_list:
       - { name: webapp, path: /var/log/webapp/production.log }
+      - { name: specific_app, path: /var/log/test.log, max_size: 40M }
     logrotate_max_size: 10M
   roles:
     - ansible-role-logrotate

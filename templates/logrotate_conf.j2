@@ -1,9 +1,9 @@
 # {{ ansible_managed }}
 
 {{ item.path }} {
-    {{ item.interval|logrotate_interval }}
-    size {{ item.max_size|logrotate_max_size }}
-    rotate {{ item.max_files|logrotate_max_files }}
+    {{ item.interval|default(logrotate_interval) }}
+    size {{ item.max_size|default(logrotate_max_size) }}
+    rotate {{ item.max_files|default(logrotate_max_files) }}
     compress
     delaycompress
     missingok
