@@ -10,4 +10,4 @@
   template:
     src: logrotate_conf.j2
     dest: "{{ logrotate_conf_d}}/{{ item.name }}"
-  with_items: "{{ logroate_file_list }}"
+  with_items: "{{ logrotate_file_list }}"
