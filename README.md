@@ -1,8 +1,13 @@
 [![Build Status](https://travis-ci.org/mediapeers/ansible-role-logrotate.svg?branch=master)](https://travis-ci.org/mediapeers/ansible-role-logrotate)
 
-# Ansible Logrotate role
+# Ansible role for Logrotate
 
 Installs and configures logrotate (adds files to `/etc/logrotate.d/`).
+
+This role is somehat opinionated to make the list of parameters more concise.
+It uses a bunch of good practise flags you commonly won't want to override (compress, copytruncate etc.).
+It also has some fallback settings if you don't want to define each log file settings seperately, those can be overriden though.
+See below.
 
 ## Requirements
 No additional requirements. Meant to be run against an Ubuntu machine, might also work for other Debian flavors.
@@ -54,7 +59,7 @@ This is an example on how you can include this role into your playbook:
 Assuming you pulled the role into your projects role dir (like `roles/mediapeers.logrotate`).
 
 ## License
-BSD
+BSD, as-is.
 
 ## Author Information
 Stefan Horning for Mediapeers.com
