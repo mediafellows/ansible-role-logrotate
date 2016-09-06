@@ -2,7 +2,7 @@
 
 # Ansible Logrotate role
 
-Installs and configures logrotate (adds files to /etc/logrotate.d).
+Installs and configures logrotate (adds files to `/etc/logrotate.d/`).
 
 ## Requirements
 No additional requirements. Meant to be run against an Ubuntu machine, might also work for other Debian flavors.
@@ -16,7 +16,7 @@ logrotate_file_list:
   - { name: my_app, path: /path/to/log/file.log }
 ```
 
-Unless specified in file list it will the global variables for logrotate settings:
+Unless specified in file list it will use the global variables for logrotate settings:
 
 ```yaml
 logrotate_interval: weekly
@@ -25,14 +25,13 @@ logrotate_max_files: 8
 ```
 
 Which you can set to your liking too by just overriding them in your playbook,
-or add file specific params like this:
+or by adding file specific params like this:
 
 ```yaml
 logrotate_file_list:
   - { name: my_app, path: /my/file.log, interval: daily, max_size: 50M, max_files: 2 }
 ```
-Thos variables have precendence over the global ones.
-
+Those variables have precendence over the global ones.
 
 ## Dependencies
 Depends on no other Ansible roles.
@@ -52,6 +51,7 @@ This is an example on how you can include this role into your playbook:
   roles:
     - mediapeers.logrotate
 ```
+Assuming you pulled the role into your projects role dir (like `roles/mediapeers.logrotate`).
 
 ## License
 BSD
