@@ -1,5 +1,8 @@
 ---
 - hosts: localhost
-  remote_user: root
+  vars:
+    logrotate_file_list:
+      - { name: webapp, path: /var/log/webapp/production.log }
+    logrotate_max_size: 10M
   roles:
     - ansible-role-logrotate
