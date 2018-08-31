@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mediapeers/ansible-role-logrotate.svg?branch=master)](https://travis-ci.org/mediapeers/ansible-role-logrotate)
+[![Build Status](https://travis-ci.com/mediapeers/ansible-role-logrotate.svg?branch=master)](https://travis-ci.com/mediapeers/ansible-role-logrotate)
 
 # Ansible role for Logrotate
 
