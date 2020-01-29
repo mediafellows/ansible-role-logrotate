@@ -9,7 +9,7 @@ python: "3.5"
 addons:
   apt:
     packages:
-    - python-pip
+      - python-pip
 
 before_install:
   - sudo apt-get update -qq
