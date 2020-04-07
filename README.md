@@ -54,12 +54,12 @@ This is an example on how you can include this role into your playbook:
     logrotate_max_size: 50M
     logrotate_max_files: 7
   roles:
-    - mediapeers.logrotate
+    - mediafellows.logrotate
 ```
-Assuming you pulled the role into your projects role dir (like `roles/mediapeers.logrotate`).
+Assuming you pulled the role into your projects role dir (like `roles/mediafellows.logrotate`).
 
 ## License
 BSD, as-is.
 
 ## Author Information
-Stefan Horning for Mediapeers.com
+Stefan Horning for Mediafellows.com
