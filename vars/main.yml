@@ -1,4 +1,4 @@
 ---
-# vars file for mediapeers.logrotate
+# vars file for mediafellows.logrotate
 
 logrotate_conf_d: /etc/logrotate.d

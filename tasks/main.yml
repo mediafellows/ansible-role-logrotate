@@ -1,5 +1,5 @@
 ---
-# tasks file for mediapeers.logrotate
+# tasks file for mediafellows.logrotate
 
 - name: Make sure logrotate is installed
   become: true

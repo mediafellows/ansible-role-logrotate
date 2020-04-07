@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Stefan Horning <horning@mediapeers.com>
+  author: Stefan Horning <stefan.horning@mediafellows.com>
   description: Installs and configures logrotate
-  company: Mediapeers GmbH
+  company: Mediafellows GmbH
   license: BSD
 
   min_ansible_version: 1.8

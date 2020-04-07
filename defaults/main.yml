@@ -1,5 +1,5 @@
 ---
-# defaults file for mediapeers.logrotate
+# defaults file for mediafellows.logrotate
 
 # override this with a list of dicts:
 logrotate_file_list: []
