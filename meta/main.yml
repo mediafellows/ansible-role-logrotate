@@ -1,4 +1,6 @@
+---
 galaxy_info:
+  role_name: logrotate
   author: Stefan Horning <stefan.horning@mediafellows.com>
   description: Installs and configures logrotate
   company: Mediafellows GmbH
