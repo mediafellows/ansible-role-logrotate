@@ -1,4 +1,4 @@
-[]()
+[![Ansible-Test](https://github.com/mediafellows/ansible-role-logrotate/workflows/Ansible-Test/badge.svg)](https://github.com/mediafellows/ansible-role-logrotate/actions?query=workflow%3AAnsible-Test)
 
 # Ansible role for Logrotate
 
