@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mediafellows/ansible-role-logrotate.svg?branch=master)](https://travis-ci.com/mediafellows/ansible-role-logrotate)
+[]()
 
 # Ansible role for Logrotate
 
